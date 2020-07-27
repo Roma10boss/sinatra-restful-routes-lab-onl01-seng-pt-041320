@@ -3,12 +3,11 @@ class ApplicationController < Sinatra::Base
     set :public_folder, 'public'
     set :views, 'app/views'
   end
-
+    # code actions here!
   get '/' do
     redirect '/recipes'
-
   end
 
-  # code actions here!
+
 
 end
